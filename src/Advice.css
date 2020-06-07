@@ -55,5 +55,10 @@ button {
   .advice-para {
     padding-top: 4rem
   }
+
+  button {
+    width: 50%;
+    margin-left: 25rem; 
+  }
   
 } 

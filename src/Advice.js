@@ -31,7 +31,7 @@ import "./Advice.css"
    }
   return (
     <>
-    <h1>Get Some Life Advices My Friend</h1>
+    <h1>Get Some Life Advice My Friend</h1>
     <img src="https://diatribe.org/sites/default/files/images/advice_mega.png" alt="Life advice"/>
     <div className="advice">
         <div className="advice-para">{advice}</div>
