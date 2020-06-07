@@ -36,7 +36,7 @@ import "./Advice.css"
     <div className="advice">
         <div className="advice-para">{advice}</div>
     </div>
-    <button onClick={onClickHandler}>Click To Get New Quote</button>
+    <button onClick={onClickHandler}>New Advice</button>
   </>
   )
 }
