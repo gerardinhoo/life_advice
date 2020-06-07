@@ -1,0 +1,59 @@
+.advice {
+  margin-top: 2rem;
+  box-shadow:0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  height: 5rem;
+  background-color: white;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+.advice-para {
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  margin-top: 5rem;
+  padding-top: 15px;;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%; 
+}
+
+button {
+  color: white;
+  padding: 10px;
+  border-radius: 4px;
+  margin-left: 1rem; 
+  margin-top: 1rem;
+  width: 90%;
+  background-color: #E94057;
+  font-size: 1rem;
+}
+
+
+@media only screen and (min-width: 768px) {
+  .advice {
+    height: 10rem;
+    width: 50%;
+    margin-left: 25rem;
+    height: 10rem;
+
+  }
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;   
+  }
+  .advice-para {
+    padding-top: 4rem
+  }
+  
+} 
